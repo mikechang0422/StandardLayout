@@ -1,16 +1,107 @@
 <!DOCTYPE html>
 <html lang="zh-Hent-TW">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="Standard Layout" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/style.css">
     <title>Standard Layout</title>
 </head>
+
 <body>
-    <div class="warpper">
-        <h1>Hello World</h1>
+    <header class="header">
+        <h1 class="logo"><a href="index.html">Standard Layout</a></h1>
+        <nav class="header-nav clearfix">
+            <ul>
+                <li class="nav-item"><a href="#">HOME</a></li>
+                <li class="nav-item"><a href="#">ABOUT</a></li>
+                <li class="nav-item"><a href="#">NEWS</a></li>
+                <li class="nav-item"><a href="#">TOP</a></li>
+                <li class="nav-item"><a href="#">DOCS</a></li>
+                <li class="nav-item"><a href="#">BLOG</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="wrap clearfix">
+        <main class="main">
+            <section class="hot-topic">
+                <a href="" class="hot-topic-a-block clearfix">
+                    <img src="./images/headphones-and-laptop-on-bed.jpg" alt="程式畫面" class="img">
+                    <div class="content">
+                        <h3>
+                            Lorem, ipsum dolor.
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatibus rem fuga placeat quam. Ab laborum temporibus numquam sed veniam fugit vero! Consequatur nesciunt quis ipsa vel, sed dolore id.</p>
+                        <time id="timer" class="date" datetime="2021-07-14">2021-07-14 THR</time>
+                    </div>
+                </a>
+            </section>
+            <section class="news">
+                <h2>NEWS</h2>
+                <ul class="scroll-list">
+                    <li class="scroll-item">
+                        <a href="#">
+                            <time class="date" datetime="2021/07/13">2021/07/13</time>
+                            <span class="category">NEWS</span>
+                            <span class="title">UPDATE</span>
+                        </a>
+                    </li>
+                    <li class="scroll-item">
+                        <a href="#">
+                            <time class="date" datetime="2021/07/12">2021/07/12</time>
+                            <span class="category">TAIWAN</span>
+                            <span class="title">SPORT</span>
+                        </a>
+                    </li>
+                    <li class="scroll-item">
+                        <a href="#">
+                            <time class="date" datetime="2021/07/11">2021/07/11</time>
+                            <span class="category">AMERICA</span>
+                            <span class="title">LANGUAGE</span>
+                        </a>
+                    </li>
+                    <li class="scroll-item">
+                        <a href="#">
+                            <time class="date" datetime="2021/07/10">2021/07/10</time>
+                            <span class="category">CHINA</span>
+                            <span class="title">COVID-19</span>
+                        </a>
+                    </li>
+                    <li class="scroll-item">
+                        <a href="#">
+                            <time class="date" datetime="2021/07/09">2021/07/09</time>
+                            <span class="category">JAPAN</span>
+                            <span class="title">SPORT</span>
+                        </a>
+                    </li>
+                    <li class="scroll-item">
+                        <a href="#">
+                            <time class="date" datetime="2021/07/08">2021/07/08</time>
+                            <span class="category">CHINA</span>
+                            <span class="title">SPORT</span>
+                        </a>
+                    </li>
+                    <li class="scroll-item">
+                        <a href="#">
+                            <time class="date" datetime="2021/07/07">2021/07/07</time>
+                            <span class="category">JAPAN</span>
+                            <span class="title">COVID-19</span>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <article class=".article"></article>
+        </main>
+        <aside class="sidemenu">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae voluptatem architecto quod rem ratione consequatur reprehenderit accusamus, excepturi modi labore sit fugiat dolore, enim reiciendis ex quam sint quidem doloribus?</p>
+        </aside>
     </div>
+    <footer class="footer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eaque aliquam recusandae sunt sed nemo. Cumque laborum et laudantium non aperiam blanditiis quis maxime quos provident cum? Sequi, ut at.</p>
+    </footer>
     <script src="./js/style.js"></script>
 </body>
+
 </html>
