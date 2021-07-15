@@ -1,16 +1,191 @@
 <!DOCTYPE html>
 <html lang="zh-Hent-TW">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="Standard Layout" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/style.css">
     <title>Standard Layout</title>
 </head>
+
 <body>
-    <div class="warpper">
-        <h1>Hello World</h1>
+    <header class="header">
+        <h1 class="logo"><a href="index.html">Standard Layout</a></h1>
+        <nav class="header-nav clearfix">
+            <ul>
+                <li class="nav-item"><a href="#">HOME</a></li>
+                <li class="nav-item"><a href="#">ABOUT</a></li>
+                <li class="nav-item"><a href="#">NEWS</a></li>
+                <li class="nav-item"><a href="#">TOP</a></li>
+                <li class="nav-item"><a href="#">DOCS</a></li>
+                <li class="nav-item"><a href="#">BLOG</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="wrap clearfix">
+        <main class="main">
+            <section class="hot-topic">
+                <a href="" class="hot-topic-a-block clearfix">
+                    <img src="./images/blush-pink-and-white-workspace.jpg" alt="程式畫面" class="img">
+                    <div class="content">
+                        <h3>
+                            冷笑話
+                        </h3>
+                        <p>1.白氣球揍了黑氣球一拳<br>黑氣球很痛很生氣<br>於是決定<br>.<br>.<br>.<br>.<br>.告白氣球<br>2.<br>一歲的蜜蜂到了一百歲變成甚麼?<br>.<br>.<br>.<br>.<br>.高齡蜂<br>3.葡萄點名<br>.<br>.<br>.<br>.<br>.葡萄柚<br>4.壞事一定要中午在做<br>因為........<br>早晚會有報應</p>
+                        <time id="timer" class="date" datetime="2021-07-14">2021-07-14 THR</time>
+                    </div>
+                </a>
+            </section>
+            <section class="news">
+                <h2>NEWS</h2>
+                <ul class="scroll-list">
+                    <li class="scroll-item">
+                        <a href="#">
+                            <time class="date" datetime="2021/07/13">2021/07/13</time>
+                            <span class="category">NEWS</span>
+                            <span class="title">活動內容，超出的部分會隱藏喔喔喔喔喔</span>
+                        </a>
+                    </li>
+                    <li class="scroll-item">
+                        <a href="#">
+                            <time class="date" datetime="2021/07/12">2021/07/12</time>
+                            <span class="category">國內新聞</span>
+                            <span class="title">活動內容，超出的部分會隱藏喔喔喔喔喔</span>
+                        </a>
+                    </li>
+                    <li class="scroll-item">
+                        <a href="#">
+                            <time class="date" datetime="2021/07/11">2021/07/11</time>
+                            <span class="category">國際新聞</span>
+                            <span class="title">活動內容，超出的部分會隱藏喔喔喔喔喔</span>
+                        </a>
+                    </li>
+                    <li class="scroll-item">
+                        <a href="#">
+                            <time class="date" datetime="2021/07/10">2021/07/10</time>
+                            <span class="category">國內新聞</span>
+                            <span class="title">活動內容，超出的部分會隱藏喔喔喔喔喔</span>
+                        </a>
+                    </li>
+                    <li class="scroll-item">
+                        <a href="#">
+                            <time class="date" datetime="2021/07/09">2021/07/09</time>
+                            <span class="category">國際新聞</span>
+                            <span class="title">活動內容，超出的部分會隱藏喔喔喔喔喔</span>
+                        </a>
+                    </li>
+                    <li class="scroll-item">
+                        <a href="#">
+                            <time class="date" datetime="2021/07/08">2021/07/08</time>
+                            <span class="category">國際新聞</span>
+                            <span class="title">活動內容，超出的部分會隱藏喔喔喔喔喔</span>
+                        </a>
+                    </li>
+                    <li class="scroll-item">
+                        <a href="#">
+                            <time class="date" datetime="2021/07/07">2021/07/07</time>
+                            <span class="category">國際新聞</span>
+                            <span class="title">活動內容，超出的部分會隱藏喔喔喔喔喔</span>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <article class="clearfix">
+                <a href="#" class="article">
+                    <img src="./images/a-close-up-of-black-microphone.jpg" alt="螢幕圖片" class="img">
+                    <h3 class="title">文章一</h3>
+                    <p class="desc">文章內容，超出的部分會隱藏起來喔喔喔喔喔喔</p>
+                    <time class="date" datetime="2021-07-15">2021-07-15 THU</time>
+                </a>
+                <a href="#" class="article">
+                    <img src="./images/laptop-on-desk.jpg" alt="螢幕圖片" class="img">
+                    <h3 class="title">文章二</h3>
+                    <p class="desc">文章內容，超出的部分會隱藏起來喔喔喔喔喔喔</p>
+                    <time class="date" datetime="2021-07-15">2021-07-14 THR</time>
+                </a>
+            </article>
+        </main>
+        <aside class="sidemenu">
+            <ol class="ranking">
+                <li class="ranking-item">
+                    <a href="">
+                        <img src="./images/startup-desk.jpg" alt="圖表照" class="img">
+                        <span class="order">1</span>
+                        <p class="text">內容區1，自行填寫內容喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔</p>
+                    </a>
+                </li>
+                <li class="ranking-item">
+                    <a href="">
+                        <img src="https://picsum.photos/200/200?random=1" alt="圖表照" class="img">
+                        <span class="order">2</span>
+                        <p class="text">內容區2，自行填寫內容喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔</p>
+                    </a>
+                </li>
+                <li class="ranking-item">
+                    <a href="">
+                        <img src="https://picsum.photos/200/200?random=2" alt="圖表照" class="img">
+                        <span class="order">3</span>
+                        <p class="text">內容區3，自行填寫內容喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔</p>
+                    </a>
+                </li>
+                <li class="ranking-item">
+                    <a href="">
+                        <img src="https://picsum.photos/200/200?random=3" alt="圖表照" class="img">
+                        <span class="order">4</span>
+                        <p class="text">內容區4，自行填寫內容喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔</p>
+                    </a>
+                </li>
+            </ol>
+            <ul class="documents">
+                <li>
+                    <h3 class="title">主題1</h3>
+                    <ul>
+                        <li><a href="#">單元1/1 a b c d e f g h i</a></li>
+                        <li><a href="#">單元1/2</a></li>
+                        <li><a href="#">單元1/3</a></li>
+                        <li><a href="#">單元1/4</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3 class="title">主題2</h3>
+                    <ul>
+                        <li><a href="#">單元2/1</a></li>
+                        <li><a href="#">單元2/2</a></li>
+                        <li><a href="#">單元2/3</a></li>
+                        <li><a href="#">單元2/4</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3 class="title">主題3</h3>
+                    <ul>
+                        <li><a href="#">單元3/1</a></li>
+                        <li><a href="#">單元3/2</a></li>
+                        <li><a href="#">單元3/3</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3 class="title">主題4</h3>
+                    <p>準備中</p>
+                </li>
+            </ul>
+            <form action="" class="search-box">
+                <input type="text" class="search-input" name="search" placeholder="SEARCH!!">
+                <input type="submit" class="search-button" value="Search">
+            </form>
+        </aside>
     </div>
+    <footer class="footer">
+        <ul class="horizontal-list">
+            <li class="horizontal-item"><a href="#">About-Me</a></li>
+            <li class="horizontal-item"><a href="#">Site-Map</a></li>
+            <li class="horizontal-item"><a href="#">SNS</a></li>
+            <li class="horizontal-item"><a href="#">Contact</a></li>
+        </ul>
+        <p class="copyright">copyright &copy; 2021 Standard Layout</p>
+    </footer>
     <script src="./js/style.js"></script>
 </body>
+
 </html>
