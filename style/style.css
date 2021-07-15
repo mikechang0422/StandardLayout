@@ -1,9 +1,9 @@
 html {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 body {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #ccc;
   background: #333;
@@ -29,7 +29,7 @@ img {
 }
 
 .header {
-  padding: 28px 0 10px;
+  padding: 2rem 0 1rem;
   width: 100%;
   background: url("../images/black-wood-angle-texture.jpg") repeat-x;
   -webkit-box-shadow: 0 0 10px 1px #e3e3e3;
@@ -55,20 +55,20 @@ img {
 }
 
 .header-nav {
-  margin: 15px auto 0;
+  margin: 1rem auto 0;
   text-align: center;
   font-weight: 700;
 }
 
 .header-nav .nav-item {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 1rem;
 }
 
 .header-nav .nav-item a {
   position: relative;
   display: block;
-  padding: 0 10px 5px;
+  padding: 0 1rem 0.5rem;
   width: 100%;
   font-size: 1.3rem;
   text-align: center;
@@ -115,7 +115,7 @@ img {
 
 .main .hot-topic-a-block {
   display: block;
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
   height: 100%;
   opacity: 0.8;
   -webkit-box-shadow: 6px 6px 4px -4px rgba(0, 0, 0, 0.15);
@@ -159,7 +159,7 @@ img {
   left: 0;
   padding: 4px;
   width: 10rem;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: #2d3d54;
   background-color: #fff;
   letter-spacing: 1px;
@@ -195,7 +195,7 @@ img {
 
 .main .news h2 {
   padding: 0.6rem 0.8rem;
-  font-size: 1.6em;
+  font-size: 2rem;
   color: #000;
   background: linear-gradient(30deg, #fff, #d99eea);
   letter-spacing: 1px;
@@ -279,7 +279,7 @@ img {
   display: block;
   margin-bottom: 2rem;
   width: 49%;
-  height: 25rem;
+  height: 26rem;
   background-color: #2d3d54;
   -webkit-box-shadow: 6px 6px 8px -4px rgba(0, 0, 0, 0.15);
           box-shadow: 6px 6px 8px -4px rgba(0, 0, 0, 0.15);
@@ -288,6 +288,7 @@ img {
 }
 
 .main .article .title {
+  padding-left: 1rem;
   margin-top: 2rem;
   font-size: 1.4rem;
   color: #fffafa;
@@ -307,7 +308,7 @@ img {
 .main .article .date {
   position: absolute;
   right: 0;
-  bottom: 1rem;
+  bottom: 1.5rem;
   display: block;
   padding: 4px;
   width: 160px;
