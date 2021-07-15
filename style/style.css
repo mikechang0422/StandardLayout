@@ -203,8 +203,8 @@ img {
 
 .main .scroll-list {
   overflow-y: auto;
-  margin-bottom: 30px;
-  max-height: 230px;
+  margin-bottom: 2rem;
+  max-height: 15.5rem;
   border: 1px solid #d99ee1;
   list-style-type: none;
 }
